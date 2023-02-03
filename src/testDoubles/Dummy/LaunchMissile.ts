@@ -11,5 +11,7 @@ export class LaunchMissileImpl implements LaunchMissileSystem {
 
     launch() {
         // テストが通るように実装してください
+            this.missile.fire()
+
     }
 }
